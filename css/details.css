@@ -1,0 +1,56 @@
+li {
+    list-style: none;
+}
+
+.content-box h2 {
+    padding: .5rem 0;
+}
+
+figure img {
+    box-sizing: border-box;
+    margin: 2%;
+    width: 96%;
+}
+
+@media screen and (min-width: 35rem) and (max-width: 80rem) {
+    .content-box h2 {
+        padding-top: 1rem;
+        margin-bottom: 0;
+    }
+    figure img {
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        clear: both;
+    }
+    figure figcaption {
+        text-align: left;
+        margin-left: 5%;
+        width: 40%;
+        float: left;
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    .content-box h2 {
+        text-align: left;
+        margin-left: 5%;
+        padding-top: 1rem;
+        margin-bottom: 0;
+    }
+    figure img {
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    figcaption {
+        text-align: left;
+        margin-left: 5%;
+        width: 40%;
+        float: left;
+        padding-top: 1rem;
+    }
+}
